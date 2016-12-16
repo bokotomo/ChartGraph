@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em,font,img,b,u,i,ol,ul,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0;padding: 0;}
+img,div{border-width: 0px;}
+a{text-decoration: none;}
+img{vertical-align: bottom;}
+textarea {resize: none;}
+body {
+	font-family: 'Helvetica Neue', Helvetica,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+	color: #252c31;
+}
+#header{
+  width:100%;height: 50px;line-height: 50px;background: rgba(255,255,255,0.95);box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.08);position:fixed;z-index: 99;
+}
+#header .header-title{
+  padding: 0px 20px;height: 50px;width:50px;float:left;background-image: url("img/logo.png");background-size: 30px 30px;background-repeat: no-repeat;background-position: 50% 50%;
+}
+#header h1{
+	color: #272d31;
+}
+.menu_icon{
+  color:#F66A78;height:50px;width:70px;display: block; float:right;background-repeat: no-repeat;background-position: 50% 50%;
+}
+
+#contents{
+  background: #FCFCFC;padding:5px 10px;padding-top: 60px;
+}
+.contents-graph-area{
+  padding: 10px 10px;font-size: 16px;background: #fff;box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.08);
+}
+.ca-button-area{
+  float: right;
+}
+.ca-button-a{
+  color: #acacac;
+}
+#chart{
+  width: 100%; border: 1px solid #f2f2f2;height: 350px;
+}
+.ca-column-checkbox-wrapper{
+  margin-bottom: 10px;padding-left: 2px;
+}
+.ca-column-button-wrapper{
+	float: left;width: 120px;margin-right: 10px;
+}
+.ca-input-own-startday{
+  width: 160px;float: left;
+}
+.ca-input-own-endday{
+  width: 160px;float: left;
+}
+.ca-input-own-center-text{
+  padding: 0px 10px;height: 35px;line-height: 35px;float: left;
+}
+.ca-input-own-button{
+  margin-left: 5px;float: left;
+}
+
+#contents2{
+  background: #FCFCFC;padding:0px 10px 5px 10px;
+}
+.contents-graph-type-area{
+  padding:10px 10px;font-size: 16px;background: #fff;box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.08);
+}
+.graph-type-select-area{
+  margin-right: 10px;float: left;
+}
+.graph-type-select-text{
+  float: left;height: 35px;line-height: 35px;padding-right: 10px;
+}
+.graph-type-select{
+  width:70px;float:left;
+}
+
+#contents3{
+  background: #FCFCFC;padding:0px 10px 10px 10px;
+}
+.contents-searching-table-area{
+  padding:10px 10px;font-size: 16px;background: #fff;box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
+}
+.searching-table{
+  margin: 0;
+}
+
+#footer{
+  height: 60px;line-height: 60px;background: #fff;border-top: 1px solid #dfe4e9;
+}
+#copy{
+  text-align: right;padding: 0px 10px;color: #aab2b9;
+}
+
+/*クラス*/
+.active{
+  
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Graph - ユーザ解析</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel='stylesheet' type='text/css' href='design.css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="./js/contoller/lib.js"></script>
+<script type="text/javascript" src="./js/contoller/index.js"></script>
+<script type="text/javascript" src="./js/model/index.js"></script>
+</head>
+<body>
+<div id="page">
+
+<header id="header" class="clearfix">
+  <div class="header-title"></div>
+  <div class="header-sub-title">- 自動でプロダクトを解析、誰でもわかる形で共有</div>
+  <div style="height:50px;line-height: 50px;">
+    <a href="./ui.html" class="menu_icon" style="background-image: url('img/icon_ui.png');background-size: 25px 25px;"></a>
+    <a href="./user.html" class="menu_icon" style="background-image: url('img/icon_users.png');background-size: 32px 25px;border-bottom: 2px solid #F66A78;"></a>
+    <a href="./" class="menu_icon" style="background-image: url('img/icon_graph.png');background-size: 25px 25px;"></a>
+  </div>
+</header>
+
+<div class="information">
+  <div class="information-contents clearfix">
+    <div style="float: left;"><img src="img/tomo.jpg" class="information-img"></div>
+    <div class="information-text">
+      <div class="ai-info"></div>
+      <div class="main-info">Thanks for using Glaph!</div>
+      <div class="sub-info">Glaphはプロダクトマーケティングをサポートするツールです。UI/UX Investigation , USER Investigation and AccessLog.</div>
+    </div>
+  </div>
+</div>
+
+<div id="contents">
+  
+  <div class="contents-graph-area">
+    <div style="font-size:22px;">
+      ユーザ解析<br>
+      ユーザがアクセスする時間帯や使用時間やDBの情報からユーザを分類します。<br>
+      分類したユーザの継続率や離脱率が視覚的にわかります。<br>
+      分析するものとしては<br>
+      他のユーザとの相性<br>
+      購入率の高いユーザと低いユーザの比較<br>
+      ユーザのプロダクト達成率による分類と比較(例：チュートリアルをしたら10%、課金や購入をしたら90%など)<br>
+      ユーザのプロダクトダウンロードの時期による分類(どのようなインセンティブを求めてダウンロードしたのか、どのUIの使い方に慣れているのか、細かくセグメントしないと施策がマイナスになる)<br>
+      離脱する前に自動的にpush通知を送れるようにする
+    </div>
+  </div>
+</div>
+
+
+<footer id="footer">
+  <div class="copy-left"><a href="https://github.com/bokotomo/googlechartgraph" target="_blank">Github</a></div>
+  <div id="copy">© 2016 graph</div>
+</footer>
+</div>
+</body>
+</html>
